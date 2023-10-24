@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Deterministic>false</Deterministic>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="resources\AWS_SNS_ExtIcon.png">
+      <LogicalName>psn.PH.AWS_SNS_ExtIcon.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\buildinfo.txt">
+      <LogicalName>psn.PH.buildinfo.txt</LogicalName>
+    </EmbeddedResource>    
+    <Content Include="resources\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.SimpleNotificationService" Version="*" />
+    <PackageReference Include="OutSystems.ExternalLibraries.SDK" Version="*" />
+    <PackageReference Include="Newtonsoft.Json" Version="*" />
+  </ItemGroup>
+</Project>
