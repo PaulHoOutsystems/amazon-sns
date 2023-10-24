@@ -89,7 +89,7 @@ To delete a topic in SNS, you must set up the AWS credentials setting in the pre
 
 ## Found a bug?
 
-Kindly submit your bug report [here](https://github.com/PaulHoOutsystems/odc-rabbitmq-client/issues) and do indicate the build number of the library which you are using too.
+Kindly submit your bug report [here](https://github.com/PaulHoOutsystems/amazon-sns/issues) and do indicate the build number of the library which you are using too.
 
 ## Contact
 
